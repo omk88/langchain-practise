@@ -30,3 +30,18 @@
 # Why it matters for your code:
 #   - Context windows: Every model has a hard token limit (e. g. Llama 3.2 1B has a limit of 128,000 tokens). If your RAG pipeline fetches too much context, your script will crash with a context overflow error.
 #   - Cost/latency: More tokens mean more math operations, which means your code runs slower.
+
+
+
+# 3. Temperature (Creativity vs predicability)
+
+# Temperature is a configuration parameter (ranging from 0.0 to 2.0) that controls how deterministic or creative the LLM's next-token selection algorithm is.
+
+# Temperature = 0.0 (Deterministic / Precise)
+#   - How it works: The model will strictly choose the mathematically most probable next token every single time. If you run the exact same prompt 100 times you will get the exact same answer 100 times.
+#   - When to use it: Code generation, math operations, financial auditing, and RAG data extractions. You cannot risk a model hallucinating financial figures.
+
+# Temperature = 0.7 to 1.0 (Creative / Fluid)
+#   - How it works: The model introduces randomness, selecting tokens that are less probable but more creative. Running the same prompt repeatedly will yield completely different phrasing.
+#   - When to use it: Brainstorming marketing copy, open-ended conversation chatbots, or fiction writing.
+
