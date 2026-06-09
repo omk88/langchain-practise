@@ -22,7 +22,7 @@ branching_router = RunnableBranch(
 full_routing_pipeline = (
     RunnableParallel({
         "intent": classifier_chain,
-        "query": lambda x: x["query"]
+        "query": RunnablePassthrough()
     })
     | branching_router
 )
