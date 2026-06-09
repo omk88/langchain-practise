@@ -45,3 +45,13 @@
 #   - How it works: The model introduces randomness, selecting tokens that are less probable but more creative. Running the same prompt repeatedly will yield completely different phrasing.
 #   - When to use it: Brainstorming marketing copy, open-ended conversation chatbots, or fiction writing.
 
+# How to configure this:
+# When you initialise a model, you can pass the temperature setting directly into the constructor:
+
+from langchain_ollama import ChatOllama
+
+# Set up a strict, precise model
+audit_model = ChatOllama(
+    model="llama3.2:1b",
+    temperature=0.0
+)
