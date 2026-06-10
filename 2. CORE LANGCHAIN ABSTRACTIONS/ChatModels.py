@@ -5,7 +5,7 @@ model = ChatOllama(model="llama3.2:1b")
 
 messages = [
     SystemMessage(content="You are a funny comedian."),
-    HumanMessage(content="Tell me a funny joke."),
+    HumanMessage(content="Tell me a funny joke."), 
     AIMessage(content="What do you call a pig that does karate? A pork chop."),
     HumanMessage(content="Hahahahaha. Tell me another.")
 ]

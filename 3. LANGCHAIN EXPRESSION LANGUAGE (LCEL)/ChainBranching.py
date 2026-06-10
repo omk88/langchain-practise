@@ -14,7 +14,7 @@ classifier_prompt = ChatPromptTemplate.from_template(
 
 classifier_chain = classifier_prompt | model | StrOutputParser()
 
-branching_router = RunnableBranch(
+branching_router = RunnableBranch( 
     (lambda x: "math" in x["intent"].lower(), math_chain),
     general_chain
 )

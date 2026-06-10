@@ -1,0 +1,31 @@
+================================================================================
+CITI GLOBAL TREASURY RISK MANAGEMENT POLICY
+Document Ref: TR-2026-LQ-04
+Division: Investment Banking and Capital Markets
+Classification: Internal Use Only
+================================================================================
+
+[SECTION 1: OVERVIEW & DIVISION RESPONSIBILITIES]
+The Corporate Treasury division, operating closely with Investment Banking and 
+Capital Markets, maintains structural oversight of the bank's balance sheet balance. 
+It is the explicit mandate of this division to identify, measure, monitor, and control 
+liquidity risks across all global business units and legal entities.
+
+[SECTION 2: DEFINITION OF LIQUIDITY RISK]
+Liquidity Risk is defined as the risk that Citi will be unable to efficiently meet 
+both expected and unexpected current and future cash flows and collateral needs 
+without adversely affecting either daily operations or the financial condition of 
+the firm. This includes the inability to manage sudden spikes in customer withdrawals, 
+unanticipated systemic market disruptions, or wholesale funding freezes.
+
+[SECTION 3: BUFFER & MITIGATION PROTOCOLS]
+To mitigate structural Liquidity Risk, Citi's Capital Markets team enforces the 
+strict maintenance of a High-Quality Liquid Asset (HQLA) buffer. This buffer 
+consists exclusively of unencumbered cash, central bank reserves, and sovereign 
+securities that can be instantly liquidated in a severe stress scenario. 
+
+[SECTION 4: COMPLIANCE METRICS]
+All regional desks must report their Liquidity Coverage Ratio (LCR) daily to the 
+Investment Banking and Capital Markets risk committee. The LCR must consistently 
+exceed 110%, ensuring that the bank holds a sufficient cushion of HQLA to survive 
+a 30-day acute stress period.
